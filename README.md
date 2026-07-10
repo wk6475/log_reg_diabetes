@@ -92,15 +92,7 @@ The model is evaluated on a held-out test set using accuracy and ROC AUC.
 
 Because the target classes are imbalanced, ROC AUC is emphasized over accuracy when assessing the model's ability to distinguish patients who are readmitted within 30 days.
 
-Add your final results here after running the notebook:
-
-```text
-Best C:
-Test accuracy:
-Test ROC AUC:
-```
-
-## Limitations
+## Visible limitations
 
 - The model only captures linear relationships between the input features and the target.
 - The dataset contains substantial class imbalance.
@@ -116,7 +108,3 @@ Potential improvements include:
 - Performing feature selection
 - Evaluating additional metrics such as the precision-recall curve
 - Investigating feature importance and model interpretability
-
-## Author
-
-Created as a machine-learning classification project using Python and scikit-learn.
